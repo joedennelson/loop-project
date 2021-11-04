@@ -20,8 +20,15 @@ console.log(while1());
 console.log(while2());
 
 function for1(){ 
-for(i=0; -<12 i=i+1){
-    console.log(i*8);
+for(i=0; i<=2; i=i+1){
+    console.log(i*3);
 }
 }
-console.log(for1())
+console.log(for1());
+
+function for2(){
+    for(i=0; i<=3; i=i+1){
+        console.log(i*4);
+    }
+}
+console.log(for2());
